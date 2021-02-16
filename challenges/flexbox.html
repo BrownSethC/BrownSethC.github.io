@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        .float1 {
+            float: left;
+            width: 30em;
+            height: 8em;
+            background-color: mediumaquamarine;
+            padding: 2em;
+        }
+
+        .float2 {
+            float: right;
+            width: 30em;
+            height: 8em;
+            background-color: mediumaquamarine;
+            padding: 2em;
+        }
+
+        .float3 {
+            float: left;
+            width: 8em;
+            height: 8em;
+            background-color: mediumaquamarine;
+            padding: 2em;
+            margin-top: 1em;
+        }
+
+        .box2, .below {
+            clear: both;
+        }
+    </style>
+</header>
+
+<body>
+    <div class="box1">
+        <div class="float1">One</div>
+        <div class="float2">Two</div>
+        <p>The two boxes should float to either side of this text.</p>
+    </div>
+    <div class="box2">
+        <div class="float3">Float</div>
+        <p><br><br>This sentence appears next to the float.</p>
+        <p class="below">Cause this sentence to appear below the float.</p>
+    </div>
+</body>
+
+</html>
